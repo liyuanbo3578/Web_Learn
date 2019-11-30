@@ -195,3 +195,12 @@ a18.start()
 a19.start()
 a20.start()
 
+        f.close()
+        
+def test13():
+    file13=ad[num*12:num*13]
+    for i in file13:
+        f=open("G:/big_file/%s"%i,"r")
+        print("12")
+        f.close()
+
