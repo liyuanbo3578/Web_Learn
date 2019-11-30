@@ -131,22 +131,6 @@ def test18():
         print("18")
         f.close()
 
-def test19():
-    file19=ad[num*18:num*19]
-    for i in file19:
-        f=open("G:/big_file/%s"%i,"r")
-        print("19")
-        f.close()
-        
-def test20():
-    file20=ad[num*19:num*20]
-    for i in file20:
-        f=open("G:/big_file/%s"%i,"r")
-        print("20")
-        f.close()  
-        
-                
-
         
 a1=threading.Thread(target=test1)
 a2=threading.Thread(target=test2)
