@@ -11,9 +11,6 @@ def test1():
         print("01")
         f.close()
 
-
-
-
 def test2():
     file02=ad[num:num*2]
     for i in file02:

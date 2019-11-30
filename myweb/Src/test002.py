@@ -3,16 +3,13 @@ import os
 
 #G:\big_file
 ad=[fname for fname in os.listdir('G:/big_file/') if  fname.endswith('txt')]
-num=int(round(len(ad)/20,0))
+num = int(round(len(ad)/20, 0))
 def test1():
     file01=ad[:num]
     for i in file01:
         f=open("G:/big_file/%s"%i,"r")
         print("01")
         f.close()
-
-
-
 
 def test2():
     file02=ad[num:num*2]
@@ -74,49 +71,49 @@ def test9():
 def test10():
     file10=ad[num*9:num*10]
     for i in file10:
-        f=open("G:/big_file/%s"%i,"r")
-        print("10")
+        f = open("G:/big_file/%s"%i,"r")
+        print ("10")
         f.close()
 
 def test11():
     file11=ad[num*10:num*11]
     for i in file11:
-        f=open("G:/big_file/%s"%i,"r")
+        f = open("G:/big_file/%s"%i,"r")
         print("11")
         f.close()        
 
 def test12():
     file12=ad[num*11:num*12]
     for i in file12:
-        f=open("G:/big_file/%s"%i,"r")
+        f = open("G:/big_file/%s"%i,"r")
         print("12")
         f.close()
         
 def test13():
     file13=ad[num*12:num*13]
     for i in file13:
-        f=open("G:/big_file/%s"%i,"r")
+        f = open("G:/big_file/%s"%i,"r")
         print("12")
         f.close()
 
 def test14():
     file14=ad[num*13:num*14]
     for i in file14:
-        f=open("G:/big_file/%s"%i,"r")
+        f = open("G:/big_file/%s"%i,"r")
         print("14")
         f.close()
 
 def test15():
     file15=ad[num*14:num*15]
     for i in file15:
-        f=open("G:/big_file/%s"%i,"r")
+        f = open("G:/big_file/%s"%i,"r")
         print("15")
         f.close() 
 
 def test16():
     file16=ad[num*15:num*16]
     for i in file16:
-        f=open("G:/big_file/%s"%i,"r")
+        f = open("G:/big_file/%s"%i, "r")
         print("16")
         f.close()
 
@@ -194,13 +191,3 @@ a17.start()
 a18.start()
 a19.start()
 a20.start()
-
-        f.close()
-        
-def test13():
-    file13=ad[num*12:num*13]
-    for i in file13:
-        f=open("G:/big_file/%s"%i,"r")
-        print("12")
-        f.close()
-
